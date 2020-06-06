@@ -1,0 +1,191 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*---top.html.erb---*/
+
+.top-h1 {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+p {
+	font-size: 13px;
+	margin-top: 20px;
+	padding-left: 40px;
+}
+
+
+
+
+
+/*---index.html.erb---*/
+
+
+.index-box {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.index-h1 {
+}
+
+.index-th {
+	font-size: 13px;
+}
+
+.index-td {
+	font-size: 13px;
+	padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+.index-h2 {
+	margin-top: 10px;
+}
+
+.index-label {
+	display: block;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+.block {
+	display: block;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---show.erb---*/
+
+.show-body {
+	margin: 33px;
+	font-size: 13px;
+}
+
+.sbox1 {
+	margin: 33px;
+	font-size: 13px;
+}
+
+.sbox2 {
+	margin: 33px;
+}
+
+.show-booktitle {
+	font-size: 13px;
+}
+
+.show-bookbody {
+	font-size: 13px;
+}
+
+
+.show-edit {
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+.show-back {
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---edit.erb---*/
+.edit-body {
+	margin: 33px;
+	font-size: 13px;
+}
+
+.edit-h1 {
+}
+
+.form {
+	margin-top: 10px;
+}
+
+.edit-label {
+	display: block;
+}
+
+.edit-form {
+	margin-bottom: 10px;
+}
+
+.update-block {
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+
+
+
+
+

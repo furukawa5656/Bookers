@@ -1,0 +1,27 @@
+
+
+
+<body class="show-body">
+
+	<% if flash[:notice] %>
+	    <%= flash[:notice] %>
+	<% end %>
+
+	<div class="sbox1">
+		<strong class="show">Title:</strong>
+		<%= @book.title %>
+	</div>
+
+	<div class="sbox2">
+		<strong class="show">Body:</strong>
+		<%= @book.body %>
+	</div>
+
+
+	<%= link_to "Edit", edit_book_path(@book.id), class: "show-edit" %>
+	<span> | </span>
+	<%= link_to "Back", books_path, class: "show-back" %>
+
+
+
+</body>
